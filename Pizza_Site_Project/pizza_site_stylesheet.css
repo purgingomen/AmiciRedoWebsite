@@ -8,9 +8,9 @@ a {
 	text-decoration: none;
 }
 
-a:hover, a:active {
+li:hover, li:active {
 	background-color: green;
-} 
+}
 
 .body {
 	width: 900px;
@@ -61,7 +61,7 @@ ul {
 li {
 	display: inline;
 	padding: 0 20px;
-	border: 2px solid black;
+	border: 0px solid black;
 	border-radius: 5px;
 }
 .banner {
@@ -119,11 +119,11 @@ li {
 .right_pictures img {
 	margin: 0;
 }
-.pic2 {
+.right_bottom_pics {
 	position: relative;
 	left: 25px;
 }
-.pic2 img {
+.right_bottom_pics img {
 	margin: 0;
 }
 
@@ -155,11 +155,11 @@ li {
 	position: relative;
 	left: 255px;
 }
-.footer a {
+.footer a, .footer a:hover {
 	color: white;
-}
-.footer a:hover, a:active {
 	opacity: 1;
+}
+.footer li:hover, li:active {
 	background-color: green;
 }
 .social_icons {
