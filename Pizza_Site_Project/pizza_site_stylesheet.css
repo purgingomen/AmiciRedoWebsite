@@ -6,6 +6,7 @@ body {
 }
 a {
 	text-decoration: none;
+	color: white;
 }
 
 li:hover, li:active {
@@ -20,59 +21,51 @@ li:hover, li:active {
 	border-radius: 3px;
 }
 
+ul {
+	list-style: none;
+	margin: 0px;	
+}
+
+li {
+	display: inline-block;
+	padding: 0 20px;
+	border-radius: 5px;
+}
+
 header a {
 	font-size: 20px;
 	color: white;
 }
-
-
-h1 {
-	text-align: center;
-	margin: 0;
-	font-family: 'Love Ya Like A Sister', cursive;
-	padding: 20px 0 0 0;
-	color: #444444;
-	font-size: 60px;
+.header_img {
+	height: 138px;
 }
-h2 {
-	text-align: center;
-	font-family: 'Love Ya Like A Sister', cursive;
-	margin: 5px, 0 0 0;
-	color: black;
-	font-size: 35px;
-	margin: -10px 0 5px 0;
-}
+
 header {
+	height: 173px;
 	background: url("pizza_header.jpg");
 	background-position: center;
 	background-size: fill;
 }
 nav {
+	width: 900px;
 	background: rgba(255, 0, 0, .5);
-	color: white;
-	margin: 0;
+	text-align: center;
 }
-ul {
+
+nav ul {
 	padding: 5px;
 	position: relative;
-	left: 95px;
-	margin-top: -5px;
-}
-li {
-	display: inline;
-	padding: 0 20px;
-	border: 0px solid black;
-	border-radius: 5px;
 }
 .banner {
-	margin-top: -16px;
+	width: 900px;
+	height: 200px;
 }
 .main_content_area {
 	width: 900px;
+	height: 665px;
 	background: green;
-	margin-top: -16px;
-	padding-bottom: 60px;
 }
+
 .main_content_area img {
 	border: 1px red solid;
 	border-radius: 10px;
@@ -91,33 +84,13 @@ li {
 	background-color: rgba(224, 194, 102, .7);
 	border-radius: 10px;
 	position: relative;
-	left: 20px;
-	top: 30px;
-	margin: 0;
+	margin: 15px;
 	float: left;
 }
 .left_pictures{
-	position:absolute;
+	position:relative;
 	left: 50px;
 	top: 40px;
-}
-
-.subcontent_right {
-	height: 630px;
-	width: 300px;
-	background-color: rgba(224, 194, 102, .7);
-	position: relative;
-	border-radius: 10px;
-	left: 550px;
-	top: 30px;
-}
-.right_pictures {
-	position: absolute;
-	left: 40px;
-	top: 50px;
-}
-.right_pictures img {
-	margin: 0;
 }
 .right_bottom_pics {
 	position: relative;
@@ -126,11 +99,29 @@ li {
 .right_bottom_pics img {
 	margin: 0;
 }
-
 #pic3 {
 	position: relative;
 	top: 20px;
 }
+.subcontent_right {
+	height: 630px;
+	width: 300px;
+	background-color: rgba(224, 194, 102, .7);
+	border-radius: 10px;
+	left: 550px;
+	top: 30px;
+	margin: 15px;
+	float: right;
+}
+.right_pictures {
+	position: relative;
+	left: 60px;
+	top: 40px;
+}
+.right_pictures img {
+	margin: 0;
+}
+
 #pic5 {
 	position: relative;
 	top: 30px;
@@ -140,32 +131,12 @@ li {
 	height: 40px;
 	background: white;
 	position: relative;
-	top: 55px;
 }
-.footer{
-	width: 900px;
-	height: 30px;
-	background: rgba(255, 0, 0, .6);
-	position: relative;
-	top: 60px;
-	border-bottom: 5px;
-	border-left: 5px;
-}
-.footer ul {
-	position: relative;
-	left: 255px;
-}
-.footer a, .footer a:hover {
-	color: white;
-	opacity: 1;
-}
-.footer li:hover, li:active {
-	background-color: green;
-}
+
 .social_icons {
 	position: relative;
-	top: -10px;
-	left: 825px;
+	float: right;
+	margin: 5px 15px;
 }
 
 .social_icons img {
@@ -173,6 +144,21 @@ li {
 }
 
 .social_icons a img:hover {
-	border: none;	
+	border: none;
+	opacity: .6;
+}
+
+.footer{
+	width: 900px;
+	height: 30px;
+	background: rgba(255, 0, 0, .6);
+	text-align: center;
+}
+.footer ul {
+	padding: 5px;
+}
+
+.footer li:hover, li:active {
+	background-color: green;
 }
 
